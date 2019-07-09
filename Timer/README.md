@@ -1,6 +1,4 @@
-# Roblox
-
-Timer / Clock GUI Script 
+# Timer / Clock GUI Script 
 Format: 00:00
 
 TimeInSeconds is input time value for seconds
