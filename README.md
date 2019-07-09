@@ -10,10 +10,7 @@ The test input value are : 59, 60, 61
 	local TimeInSeconds = 59
 	local TimeInMinutes = math.floor(TimeInSeconds/60)
 	local reminder = TimeInSeconds%60
-	print (reminder)
-
 	local flag = false;
-
 	local clockText = script.Parent.Clock
 
 	if reminder ==0 then
@@ -22,7 +19,6 @@ The test input value are : 59, 60, 61
 	else
 		flag = false;
 	end
-	print (flag)
 
 	for i = 1,reminder do
 		wait(1) 
@@ -39,7 +35,6 @@ The test input value are : 59, 60, 61
 				clockText.Text ="0".. TimeInMinutes ..":".. reminder -i
 			end
 		end
-		print(clockText.Text)
 	end
 
 	if flag == false then
@@ -82,7 +77,6 @@ The test input value are : 59, 60, 61
 						clockText.Text ="0"..TimeInMinutes ..":".. (60 -i)			
 					end
 				end
-				print(i..":--"..clockText.Text)
 			end
 			if TimeInMinutes >=1 then
 				TimeInMinutes = TimeInMinutes -1
