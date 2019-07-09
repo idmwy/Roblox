@@ -7,6 +7,8 @@ TimeInSeconds is input time value for seconds
 
 The test input value are : 59, 60, 61
 
+The script is shown as:
+
 	local TimeInSeconds = 59
 	local TimeInMinutes = math.floor(TimeInSeconds/60)
 	local reminder = TimeInSeconds%60
